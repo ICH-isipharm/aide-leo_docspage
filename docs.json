@@ -1,21 +1,57 @@
 {
-  "name": "My Docs",
+  "name": "Aide LEO",
   "description": "My documentation site",
   "sidebar": [
   {
-    "group": "Getting Started",
+    "group": "Bienvenue",
+    "pages": [
+      { "title": "Accueil", "href": "/", "icon": "rocket" },
+      { "title": "Les nouveautés de la 216.1", "href": "versions/216.1", "icon": "arrow-right" }
+    ]
+  },
+  {
+    "group": "Premier pas avec LEO",
+    "pages": [
+      { "title": "Lancer une application", "href": "/premier-pas/lancer-application" },
+      { "title": "Raccourcis clavier", "href": "/premier-pas/raccourcis-clavier" }
+    ]
+  },
+  {
+    "group": "Fonctionnalités métier",
     "pages": [
       {
-        "title": "Getting to know docs.page",
-        "href": "/",
-        "icon": "rocket"
+        "group": "Comptoir",
+        "pages": [
+          { "title": "Délivrer une ordonnance", "href": "/comptoir/delivrer-ordonnance" }
+        ]
       },
       {
-        "title": "Next Steps",
-        "href": "/next-steps",
-        "icon": "arrow-right"
+        "group": "Suivi de paiement",
+        "pages": [
+          { "title": "Contrôler les délivrances", "href": "/suivi-paiement/controler-delivrances" }
+        ]
+      },
+      {
+        "group": "Commandes et stocks",
+        "pages": [
+          { "title": "Gérer les commandes", "href": "/commandes-stocks/gerer-les-commandes" }
+        ]
+      },
+      {
+        "title": "Gérer la vaccination assistée",
+        "href": "/vaccination-assistee/gerer-la-vaccination-assistee"
       }
     ]
   }
-]
+  ],
+
+  "head": [
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "algolia-site-verification",
+        "content": "B11E96A73E4BE640"
+      }
+    }
+  ]
 }

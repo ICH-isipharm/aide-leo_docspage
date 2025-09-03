@@ -1,0 +1,171 @@
+---
+title: Les nouveautés de la version 216.1
+---
+
+## Mise à jour 216.1.9
+
+### Dépistage, prévention, accompagnement du patient
+- Nouveau document d’accompagnement : **Compte-rendu Prise en charge Cystite**, disponible dans le parcours de dépistage.
+
+---
+
+## Mises à jour 216.1.8
+
+### Ordonnance numérique
+- **Modification du texte indicatif** dans la recherche prédictive :  
+  Vous pouvez désormais scanner une ordonnance numérique aux étapes suivantes :  
+  - F3 – Patient  
+  - F4 – Prescripteur  
+  - F6 – Produits (si aucun produit n’est présent dans la grille)
+
+- **Amélioration du tri des propositions de produits** :  
+  Les spécialités remboursables sont désormais prises en compte.  
+  👉 Un lien *Comment sont triés les produits ?* reste disponible en bas du tableau.
+
+### Statistiques
+- Dans le rapport **Patient**, possibilité de lancer une recherche par **caisse complémentaire**.
+
+---
+
+## Évolutions de la version 216.1
+
+### Nouveautés liées à l’ordonnance numérique
+
+#### Proposition des produits
+- Nouvel assistant affiché automatiquement lors de la validation de l’ordonnance numérique.  
+- Permet de sélectionner le produit le plus adapté à la dispensation.  
+- Activé par défaut via : **Paramétrage (901) > e-prescription > Proposer les produits à délivrer**.  
+👉 [En savoir plus sur la proposition des produits](2161_Proposition_produits.md)
+
+#### Gestion du prescripteur
+- Nouvel assistant disponible lors de la validation d’une e-prescription :  
+  - Créer le prescripteur et/ou sa situation.  
+  - Mettre à jour les identifiants (AM, FINESS, RPPS).  
+- 2 étapes :  
+  1. Informations du prescripteur (nom, identifiants, RPPS, commentaire)  
+  2. Situation professionnelle et coordonnées.  
+- Si le prescripteur n’existe pas, un message propose sa création.  
+- Pour un prescripteur salarié : l’établissement est demandé et créé automatiquement à partir du FINESS.
+
+#### Autres évolutions liées à l’ordonnance numérique
+- Alerte bloquante si le patient identifié ne correspond pas à l’ordonnance numérique.  
+- En cas d’incohérence de prise en charge, maintien possible en mode e-prescription.  
+- Nouvelle icône pour les produits non rapprochés.  
+- Affichage du **sous-type d’ordonnance** (ex. ordonnances sécurisées).
+
+---
+
+## Profils personnalisés
+- Chaque utilisateur peut créer jusqu’à **3 profils personnalisés**.  
+- Depuis l’accueil LEO : bouton **Ajouter un nouveau profil**.  
+- Étapes :  
+  1. Saisir un libellé,  
+  2. Glisser-déposer les tuiles,  
+  3. Enregistrer.  
+- Un bouton **Modifier** permet d’éditer un profil ; un bouton **Supprimer** devient disponible si nécessaire.  
+💡 Le dernier profil utilisé est automatiquement réaffiché à la reconnexion.
+
+---
+
+## Fiche client : ergonomie et fonctionnalités
+- Les petites tuiles sont regroupées par thématique :  
+  - Identité  
+  - Autour du patient (Famille, Commentaires, Prescripteurs)  
+  - Compte (Prise en charge, Organismes, Tuteurs)  
+  - Rendez-vous  
+  - Carnet de santé (pathologies, résultats biologiques, prévention, missions de santé, vaccinations, grossesse, allaitement)  
+  - Historiques  
+  - Documents  
+
+### Améliorations fonctionnelles
+- Nouveaux boutons pour renseigner rapidement **taille** et **poids**.  
+- Les missions de santé affichent désormais les missions éligibles, démarrage possible directement.
+
+---
+
+## Campagne promotionnelle "Lot interne"
+- Sélection des produits et définition du prix global directement dans l’assistant.  
+- Gestion du stock promotionnel possible.  
+- Suppression des campagnes depuis l’écran (440).  
+- Campagnes existantes migrées automatiquement.  
+- **Au comptoir** : plus besoin de scanner un EAN spécifique.  
+- Accès : automatique si activé dans **Paramétrage (901) > Vente > Campagnes promotionnelles** ou manuel via le pictogramme promo.
+
+---
+
+## Autres évolutions
+
+### Écran d’accueil LEO
+- Réorganisation des boutons d’accès rapide.  
+- Nouveau bouton **Aide LEO** pour accès direct à la documentation.
+
+### Application Carte Vitale (ApCV) : qualification INS
+- L’INS est désormais récupérée automatiquement lors de la création/mise à jour patient.  
+- Statut :  
+  - **Ouvrant droit** → qualifiée (justificatif : Appli Carte Vitale).  
+  - **Ayant droit** → qualifiée si justificatif présent, sinon récupérée.
+
+### Dossier Médical Partagé (DMP)
+- Nouvelle icône visible si le statut DMP est indéterminé.  
+- En cas d’échec d’alimentation, une modification du document est requise avant nouvelle tentative.
+
+### Vaccination assistée
+- Accessible en délivrance/vente via :  
+  - Bouton **Ajouter un autre service**,  
+  - ou raccourci clavier **F9**.
+
+### Visiodroits
+- En cas d’absence de couverture confirmée, le hors tiers-payant est appliqué.  
+- Une infobulle signale si la transmission de la part complémentaire est désactivée.
+
+### Indicateur HAD
+- Nouvelle colonne pour indiquer la transmissibilité dans le référentiel **Organismes HAD (430)**.
+
+### Prix d’achat PMP
+- Possibilité de renseigner le **Prix Moyen Pondéré** lors d’une saisie par prix.
+
+### Alimentation différée Datamatrix
+- Compléter ultérieurement numéros de lot et série pour un produit déjà saisi.  
+- Exemple : produits gérés par automate/robot.
+
+### Missions de santé
+- Nouvelle action **Accompagnement** intégrée aux missions.  
+- Documents d’accompagnement complétés directement depuis la mission.
+
+### Nouveaux documents d’accompagnement anticancéreux
+- Disponibles pour plusieurs molécules (Darolutamide, Gilteritinib, Midostaurine, Pemigatinib, Talazoparib, Acalabrutinib, Asciminib, Tucatinib).
+
+### Organismes et tuteurs
+- Activation possible de l’envoi des relevés par courriel.  
+- Relevés générés automatiquement pour les patients avec adresse mail.
+
+### Ventes internet
+- Ajustements pour éviter des produits bloqués dans l’espace "Produits préparés".
+
+### Saisie n° AM prescripteur
+- De nouveau possible depuis la fenêtre **Choix du n°AM**.
+
+---
+
+## Évolutions statistiques
+
+### Domaine Pilotage
+- **Dispensation à l’unité (DAU)** : suivi des délivrances hors boîte pleine, incluant stupéfiants.  
+- **Téléconsultation** : suivi des actes facturés, avec CA HT associé.  
+- **Chiffres du jour** : ajout des frais de livraison.  
+- **Tableau de bord** : nouvelle page de suivi des crédits (mises en crédit, encours, remboursements).
+
+### Domaine Expert comptable
+- Rapport **TVA 0% Détails** : filtre par code prestation et sélection multiple de taux de TVA.
+
+### Domaine Professionnels et Organismes
+- Rapport **Analyse Organismes/Tuteur** :  
+  - Inclure ou non les ventes professionnelles (lignes en fond bleu).  
+  - Restreindre à un ou plusieurs organismes.
+
+### Domaine Recherche d’information
+- Rapport **Patient** : recherche possible par caisse complémentaire.
+
+---
+
+📅 **Version 216.1.9 – publiée le 04/08/2025**
