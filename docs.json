@@ -45,6 +45,12 @@
   }
   ],
 
+  "docsearch": {
+    "appId": "6e727189-44f6-4b2a-adec-10702d567443",
+    "apiKey": "af77503005d1ddc641567bbe1c512ccc",
+    "indexName": "aide-leo"
+  },
+
   "head": [
     {
       "tag": "meta",
